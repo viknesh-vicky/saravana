@@ -40,12 +40,16 @@ public class TC1_LoginStep extends BaseClass {
 
 	}
 
-	@Then("User Should Verefy The Error Message After Login {string}")
-	public void user_should_verefy_the_error_message_after_login(String loginerrormsg) {
-	 WebElement loginerrortxtmsg = pom.getLoginpage().getLoginerrortxtmsg();
-	 boolean contains = loginerrormsg.contains(loginerrormsg);
-	 Assert.assertTrue("verify after login error msg", contains);
-	
-		
+	public void saravana() {
+		System.out.println("modified");
 	}
+
+//	@Then("User Should Verefy The Error Message After Login {string}")
+//	public void user_should_verefy_the_error_message_after_login(String loginerrormsg) {
+//	 WebElement loginerrortxtmsg = pom.getLoginpage().getLoginerrortxtmsg();
+//	 boolean contains = loginerrormsg.contains(loginerrormsg);
+//	 Assert.assertTrue("verify after login error msg", contains);
+//	
+//		
+//	}
 }
